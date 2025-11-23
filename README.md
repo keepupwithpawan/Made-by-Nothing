@@ -21,7 +21,7 @@
 
 **Status**: ✅ Complete  
 **Tech Stack**: Next.js 16, React 19, TypeScript, Tailwind CSS  
-**Live Demo**: [Coming Soon]
+**Live Demo**: [https://made-by-nothing-linkedin.vercel.app/]
 
 A complete reimagining of LinkedIn's professional networking interface with Nothing's minimalist aesthetic. Features include:
 
