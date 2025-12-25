@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+:root {
+  /* Default (Light Mode) */
+  --nothing-bg: #ffffff;
+  --nothing-text: #000000;
+  --nothing-card: #f5f5f5;
+  --nothing-border: #e5e5e5;
+  --nothing-hover: #e5e5e5;
+  --nothing-red: #ff0000;
+
+  /* Constant colors */
+  --nothing-true-black: #000000;
+  --nothing-true-white: #ffffff;
+}
+
+.dark {
+  /* Dark Mode */
+  --nothing-bg: #000000;
+  --nothing-text: #ffffff;
+  --nothing-card: #0a0a0a;
+  --nothing-border: #1a1a1a;
+  --nothing-hover: #1a1a1a;
+}
+
+@theme inline {
+  --color-nothing-bg: var(--nothing-bg);
+  --color-nothing-text: var(--nothing-text);
+  --color-nothing-card: var(--nothing-card);
+  --color-nothing-border: var(--nothing-border);
+  --color-nothing-hover: var(--nothing-hover);
+  --color-nothing-red: var(--nothing-red);
+
+  --color-nothing-true-black: var(--nothing-true-black);
+  --color-nothing-true-white: var(--nothing-true-white);
+
+  --font-billabong: var(--font-billabong);
+  --font-ndot: var(--font-ndot);
+  --font-ntype: var(--font-ntype);
+}
+
+.font-billabong {
+  font-family: var(--font-billabong) !important;
+}
+
+body {
+  background-color: var(--nothing-bg);
+  color: var(--nothing-text);
+  font-family: var(--font-ntype), sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-display {
+  font-family: var(--font-ndot), monospace;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-none {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
