@@ -35,7 +35,7 @@ A complete reimagining of LinkedIn's professional networking interface with Noth
 
 ---
 
-### 01. Instagram Redesign
+### 02. Instagram Redesign
 
 **Status**: ✅ Complete  
 **Tech Stack**: Next.js 16, React 19, TypeScript, Tailwind CSS  
