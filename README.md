@@ -35,6 +35,24 @@ A complete reimagining of LinkedIn's professional networking interface with Noth
 
 ---
 
+### 01. Instagram Redesign
+
+**Status**: ✅ Complete  
+**Tech Stack**: Next.js 16, React 19, TypeScript, Tailwind CSS  
+**Live Demo**: [https://made-by-nothing-instagram.vercel.app/]
+
+A complete reimagining of Instagram's social experience with Nothing's minimalist aesthetic. Features include:
+
+- Sticky sidebar navigation with signature brand typography
+- Dot matrix typography and high-precision iconography
+- Resizable Direct Message section with dynamic width control
+- Dark mode optimized for OLED displays with red accenting
+- Fully data-driven components for a seamless, responsive feed
+
+[View Project →](./instagram)
+
+---
+
 ## 🛠️ Tech Stack
 
 Each project may use different technologies, but the core stack includes:
